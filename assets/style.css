@@ -1,0 +1,66 @@
+form#file-form {
+  /* add a cool background color */
+  background-color: #333;
+  color: #fff;
+  /* add some padding and a border radius to round the corners */
+  padding: 32px;
+  border-radius: 16px;
+  /* add a transition effect to smoothly animate the form */
+  transition: transform 0.2s ease-in-out;
+  /* add a box shadow to give the form some depth */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* make the form responsive */
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* add a hover effect to the form */
+form#file-form:hover {
+  /* scale the form up slightly on hover */
+  transform: scale(1.05);
+  /* change the background color on hover */
+  background-color: #4caf50;
+}
+
+#file-input {
+  /* add some styling to the file input */
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 8px;
+  /* add a transition effect to smoothly animate the input */
+  transition: box-shadow 0.2s ease-in-out;
+  /* add a box shadow to give the input some depth */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* add a hover effect to the file input */
+#file-input:hover {
+  /* change the box shadow color on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#submit-button {
+  /* add some styling to the submit button */
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  width: 100%;
+  /* add a transition effect to smoothly animate the button */
+  transition: background-color 0.2s ease-in-out;
+  /* add a box shadow to give the button some depth */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* add a hover effect to the submit button */
+#submit-button:hover {
+  /* change the background color on hover */
+  background-color: #4caf50;
+  /* change the box shadow color on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}

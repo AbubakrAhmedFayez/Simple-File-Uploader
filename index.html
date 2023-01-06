@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File Uploader</title>
+    <!-- link to the external CSS file -->
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+  </head>
+  <body>
+    <!-- center the form on the page -->
+    <div style="display: flex; align-items: center; justify-content: center;">
+      <!-- This is the HTML for the file input form -->
+      <form id="file-form" action="upload.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="file-input" multiple>
+        <button type="submit" name="submit" id="submit-button">Upload</button>
+      </form>
+    </div>
+
+    <!-- link to the external JavaScript file -->
+    <script src="assets/script.js"></script>
+  </body>
+</html>

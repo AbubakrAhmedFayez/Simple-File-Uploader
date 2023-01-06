@@ -1,0 +1,59 @@
+/* Add some style to the page */
+body {
+  background-color: #4caf50;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.congrats {
+  font-size: 32px;
+  /* add some space between the congrats text and the animation */
+  margin: 32px 0;
+  /* add some font weight to the congrats text */
+  font-weight: bold;
+}
+
+.animation {
+  width: 128px;
+  height: 128px;
+  margin: 32px auto;
+  background-image: url('media/web-media/congratz.gif');
+  background-size: cover;
+  border-radius: 50%;
+  /* add a box shadow to give the animation element some depth */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* add a transition effect to smoothly animate the animation */
+  transition: transform 0.2s ease-in-out;
+}
+/* add a hover effect to the animation element */
+.animation:hover {
+  /* scale the animation up slightly on hover */
+  transform: scale(1.05);
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  /* add a transition effect to smoothly animate the button */
+  transition: background-color 0.2s ease-in-out;
+  /* add a box shadow to give the button some depth */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* add some border radius to the button */
+  border-radius: 4px;
+}
+
+/* add a hover effect to the button */
+.button:hover {
+  /* change the background color on hover */
+  background-color: #444;
+  /* change the box shadow color on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
